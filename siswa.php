@@ -5,8 +5,8 @@ class Siswa{
     public $nama;
     public $kelas;
   
-   function rayon() {
-     return "Tajur 1";
+   function nilai() {
+     return "Kompeten";
     }
 }
   
@@ -22,5 +22,6 @@ echo $attar->nama;
 echo "<br />";
 echo $attar->rombel;
 echo "<br />";
-echo $attar->rayon();
+echo "<br />";
+echo $attar->nilai();
 ?>
